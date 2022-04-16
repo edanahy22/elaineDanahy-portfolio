@@ -1,0 +1,176 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* color scheme: light grey, light blue, pink, and maroon */
+:root {
+    --card-color: rgb(211, 206, 202);
+    --text-color: rgb(75, 103, 116); 
+    --accent-color: rgb(200, 112, 92);
+    --border-color: rgb(144, 47, 52);
+}
+
+body {
+    background-color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    border-bottom: 5px solid var(--border-color);
+    background-color: var(--card-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-color);
+    font-family:'Yanone Kaffeesatz', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    color: var(--text-color);
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav a {
+    color: var(--text-color);
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    text-decoration:none;
+}
+
+h1{
+    padding: 10px;
+    font-size: 35px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectionCard {
+    background-color: var(--card-color);
+    margin: 10px;
+
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sectionCard h2 {
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    font-size: 200%;
+    color: var(--border-color);
+    border-right: 2px dotted var(--text-color);
+    padding:0 2% 0 4%;
+    margin: 2%;
+    justify-self: flex-start;
+}
+
+.sectionCard p {
+    margin: 3%;
+}
+
+.projectCard {
+    width: 98%;
+    height: 100%;
+    background-color: var(--card-color);
+} 
+
+ul.project {
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+    margin: 1%;
+} 
+
+.project li {
+    height:60vh;
+    list-style: none;
+    text-align: center;
+    margin: 1%;
+
+}
+
+.project li img {
+    min-width: 50%;
+    max-height: 50%;
+    object-fit: contain;
+    border: 3px solid var(--border-color);
+}
+
+a img.one {
+    min-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+figcaption {
+    margin: -2rem;
+    color: white;
+}
+
+/* picture of me styling */
+#aboutme {
+    width: 25%;
+    margin: 3%;
+    border: 5px solid var(--border-color);
+} 
+
+/* contact info styling */
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.info li {
+    list-style: none;
+}
+
+.info li a {
+    color: var(--text-color);
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* footer styling */
+footer {
+    text-align: center;
+}
+
+nav a:hover {
+    color: var(--accent-color)
+}
+
+#aboutme:hover {
+    border-color: var(--accent-color)
+}
+/*Smart phone display features */
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction:column;
+    }
+
+    .sectionCard {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionCard h2{
+        border-bottom: 2px dotted var(--text-color);
+        border-right: none;
+    }
+}
