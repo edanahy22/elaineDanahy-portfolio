@@ -16,7 +16,7 @@ The pictures will act as links to future projects as they are completed (right n
 
 
 ## Screenshot
-[Screen recording of portfolio](./assets/images/Screen%20Shot%202022-04-16%20at%209.33.36%20AM.png)
+[Screenshot of portfolio](./assets/images/Screen%20Shot%202022-04-16%20at%209.33.36%20AM.png)
 
 
 ## URL Link
