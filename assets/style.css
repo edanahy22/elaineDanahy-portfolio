@@ -103,8 +103,8 @@ ul.project {
 }
 
 .project li img {
-    min-width: 40%;
-    max-height: 40%;
+    min-width: 50%;
+    max-height: 50%;
     object-fit: contain;
     border: 3px solid var(--border-color);
 }
@@ -174,9 +174,14 @@ nav a:hover {
         border-right: none;
     }
 
+    ul.project {
+        display: flex;
+        flex-direction: column;
+    }
+
     .project li img {
-        min-width: 25%;
-        max-height: 25%;
+        min-width: 30%;
+        max-height: 30%;
         object-fit: contain;
         border: 3px solid var(--border-color);
     }
