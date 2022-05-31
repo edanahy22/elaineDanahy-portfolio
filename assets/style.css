@@ -92,6 +92,12 @@ main {
     margin: 2rem !important;
 }
 
+.btn {
+    margin:1rem;
+    background-color: var(--border-color);
+    color:rgb(236, 231, 227);
+}
+
 .projectCard {
     width: 98%;
     height: 100%;
@@ -144,11 +150,8 @@ figcaption {
     flex-direction: row;
 }
 
-.info li {
-    list-style: none;
-}
 
-.info li a {
+.info a {
     color: var(--text-color);
     font-family:'Yanone Kaffeesatz', sans-serif;
     font-size: 25px;
@@ -161,6 +164,9 @@ footer {
     text-align: center;
 }
 
+.btn:hover{
+    background-color: var(--accent-color);
+}
 nav li a:hover {
     color: var(--accent-color) !important;
 }
@@ -176,11 +182,6 @@ nav li a:hover {
         align-items: flex-start;
         flex-direction:column !important;
     }
-
-    /* .project-title {
-        display: flex;
-        j
-    } */
 
     .sectionCard {
         display: flex !important;
@@ -199,9 +200,9 @@ nav li a:hover {
         border: 3px solid var(--border-color);
     }
     
-    a img.one {
-        min-width: 50%;
-        max-height: 50%;
-        object-fit: contain;
+   
+    .info a {
+        display: flex;
+        flex-direction: column !important;
     } 
 }

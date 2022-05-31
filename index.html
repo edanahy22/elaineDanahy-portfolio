@@ -54,7 +54,10 @@
                         <p>Hi there! I'm Elaine Danahy, a current speech-language pathologist making the transition into
                             full-stack
                             web development.</p>
-                        <img src="./assets/images/AboutMe.JPG" alt="Image of Elaine Danahy" id="aboutme" />
+                        <div class="card" style="width: 18rem;" id="aboutme">
+                            <img src="./assets/images/AboutMe.JPG" class="card-img-top" alt="image of Elaine Danahy">
+                        </div>
+
                     </section>
                 </div>
 
@@ -62,43 +65,41 @@
                 <div class="col-12 mb-3">
                     <div class="card-id">
                         <section id="projects" class="sectionCard">
-                    
-                                <h2>Projects</h2>
-                            
+
+                            <h2>Projects</h2>
+
                             <div class="container">
 
-                                <div class="row">
+                                <div class="row project-card">
                                     <div class="card col-10 mb-3">
-                                        <img src="./assets/images/comingSoon.jpeg" class="card-img-top" alt="...">
+                                        <img src="./assets/images/Screen Shot 2022-05-31 at 3.07.34 PM.png" class="card-img-top" alt="Image of Coffee Shop App">
                                         <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">This is a wider card with supporting text below as a
-                                                natural lead-in to additional content. This content is a little bit
-                                                longer.</p>
+                                            <h5 class="card-title">Coffee Shop!</h5>
+                                            <p class="card-text">Coffee Shop is an application designed for coffee enthusiasts. It allows users to find new coffee shops near them by allowing them to filter through options such as ratings, reviews, and price. The app also provides descriptions of different coffee types and recipes if the user decides to make coffee at home instead.</p>
+                                                <a href="https://p1-coffeework.github.io/coffeeLocator/" target="blank" class="btn">Application</a>
+                                                <a href="https://github.com/p1-coffeeWork/coffeeLocator" target="blank" class="btn">Github Repository</a>
                                         </div>
                                     </div>
 
                                     <div class="card col-5 mb-3" style="width: 18rem;">
-                                        <img src="./assets/images/comingSoon.jpeg" class="card-img-top"
+                                        <img src="./assets/images/screenshotcodequiz copy.jpeg" class="card-img-top"
                                             alt="project 1 placeholder image">
                                         <div class="card-body">
-                                            <h5 class="card-title">Coffee Shop! App</h5>
-                                            <p class="card-text">Some quick example text to build on the card title
-                                                and make up
-                                                the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            <h5 class="card-title">codeQuiz</h5>
+                                            <p class="card-text">codeQuiz is a web application to test student developers knowledge of JavaScript through a series of multiple choice questions.</p>
+                                            <a href="https://edanahy22.github.io/codeQuiz/" target="blank" class="btn">Application</a>
+                                            <a href="https://github.com/edanahy22/codeQuiz" target="blank" class="btn">Github Repository</a>
                                         </div>
                                     </div>
 
                                     <div class="card col-5 mb-3" style="width: 18rem;">
-                                        <img src="./assets/images/comingSoon.jpeg" class="card-img-top"
+                                        <img src="./assets/images/Screen Shot 2022-05-08 at 10.26.30 AM.png" class="card-img-top"
                                             alt="project 1 placeholder image">
                                         <div class="card-body">
-                                            <h5 class="card-title">Coffee Shop! App</h5>
-                                            <p class="card-text">Some quick example text to build on the card title
-                                                and make up
-                                                the bulk of the card's content.</p>
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            <h5 class="card-title">Work Day Scheduler</h5>
+                                            <p class="card-text">Work day Scheduler is an application to help users keep track of events for their work day. They can edit and save events for each hour in their work day.</p>
+                                            <a href="https://edanahy22.github.io/dailyScheduler/" target="blank" class="btn">Application</a>
+                                            <a href="https://github.com/edanahy22/dailyScheduler" target="blank" class="btn">Github Repository</a>
                                         </div>
                                     </div>
 
@@ -113,15 +114,27 @@
 
             <div class="col-12 mb-3">
                 <section id="contact" class="sectionCard">
+                    
                     <h2>Contact me</h2>
-                    <ul class="info">
-                        <li><a href="mailto:edanahy22@gmail.com" target="_blank">edanahy22@gmail.com</a></li>
-                        <li><a href="https://github.com/edanahy22" target="_blank">Github</a></li>
-                    </ul>
+                    <div class="container">
+                        <div class="row info">
+                            <div class="col-4 mb-3">
+                                <a href="mailto:edanahy22@gmail.com" target="_blank">Email</a>
+                            </div>
+                            <div class="col-4 mb-3">
+                                <a href="https://github.com/edanahy22" target="_blank">Github</a>
+                            </div>
+                            <div class="col-4 mb-3">
+                                <a href="https://www.linkedin.com/in/elainedanahy/" target="_blank">LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
                 </section>
             </div>
         </div>
-        </div>
+        
     </main>
     <footer>
         <p>Thank you for visiting!</p>
