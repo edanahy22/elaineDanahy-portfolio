@@ -28,7 +28,6 @@ header {
     font-family:'Yanone Kaffeesatz', sans-serif;
 }
 
-
 .text-design {
     display: flex;
     flex-direction: row;
@@ -82,6 +81,15 @@ main {
 
 .sectionCard p {
     margin: 3%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 2rem !important;
 }
 
 .projectCard {
@@ -169,19 +177,19 @@ nav li a:hover {
         flex-direction:column !important;
     }
 
-    .sectionCard {
+    /* .project-title {
         display: flex;
-        flex-direction: column;
+        j
+    } */
+
+    .sectionCard {
+        display: flex !important;
+        flex-flow: wrap !important;
     }
 
     .sectionCard h2{
         border-bottom: 2px dotted var(--text-color);
         border-right: none;
-    }
-
-    ul.project {
-        display: flex;
-        flex-direction: column;
     }
 
     .project li img {
