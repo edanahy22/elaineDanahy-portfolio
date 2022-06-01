@@ -23,7 +23,7 @@ Lastly, the bottom of the page provides my contact information.
 ![contact info](./assets/images/Screen%20Shot%202022-06-01%20at%203.22.43%20PM.png)
 
 ## URL Link
-![Portfolio URL](https://edanahy22.github.io/elaineDanahy-portfolio/)
+[Portfolio URL](https://edanahy22.github.io/elaineDanahy-portfolio/)
 
 ## Contact Information
 email: edanahy22@gmail.com
