@@ -84,13 +84,17 @@ main {
     margin: 3%;
 }
 
-.row {
+/* .row {
     display: flex;
     justify-content: center;
-}
+} */
 
 .card {
-    margin: 2rem !important;
+    margin: 1rem !important;
+} 
+
+.proj-img {
+    height: 18rem !important;
 }
 
 .btn {
@@ -107,11 +111,10 @@ main {
 } 
 
 /* contact info styling */
-.info {
-    display: flex;
-    flex-direction: row;
+.info div {
+    display: flex !important;
+    flex-direction: row !important;
 }
-
 
 .info a {
     color: var(--text-color);
@@ -121,6 +124,26 @@ main {
     padding: 10px;
 }
 
+.contact-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.contact-list li {
+    margin: 1rem;
+}
+
+.contact-info {
+    border-top: 5px solid var(--border-color);
+    background-color: var(--card-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-color);
+    font-family:'Yanone Kaffeesatz', sans-serif;
+}
 /* footer styling */
 footer {
     text-align: center;
@@ -165,7 +188,6 @@ footer {
         object-fit: contain;
         border: 3px solid var(--border-color);
     }
-    
    
     .info div a {
         display: flex !important;
